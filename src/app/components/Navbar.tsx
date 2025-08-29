@@ -46,7 +46,7 @@ const Navbar: React.FC = () => {
     <nav className="bg-white shadow-md fixed w-full top-0 z-10">
       <div className="container mx-auto px-6 py-3 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold text-gray-800 cursor-pointer">
-          Amana Bookstore
+          ALi Hassan Bookstore
         </Link>
         <div className="flex items-center space-x-4">
           <Link href="/" className={`text-gray-600 hover:text-amber-500 cursor-pointer ${pathname === '/' ? 'text-amber-500 font-semibold' : ''}`}>

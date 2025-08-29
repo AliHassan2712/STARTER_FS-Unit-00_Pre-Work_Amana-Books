@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Amana Bookstore',
+  title: 'ALi Hassan Bookstore',
   description: 'A modern online bookstore built with Next.js and Tailwind CSS.',
 };
 
