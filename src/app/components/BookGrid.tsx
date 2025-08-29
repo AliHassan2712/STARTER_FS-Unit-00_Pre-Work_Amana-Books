@@ -15,7 +15,7 @@ interface BookGridProps {
 const BookGrid: React.FC<BookGridProps> = ({ books, onAddToCart }) => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedGenre, setSelectedGenre] = useState('All');
-  const [sortBy, setSortBy] = useState('title');
+  const [sortBy, setSortBy] = useState('price');
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc');
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(8);
